@@ -73,7 +73,7 @@ $pmda->add_metric(pmda_pmid(0,2), PM_TYPE_STRING, PM_INDOM_NULL,
 	'php_fpm.start_time',
 	'Start time', '');
 $pmda->add_metric(pmda_pmid(0,3), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,1,0,0,PM_COUNT_ONE),
+	PM_SEM_INSTANT, pmda_units(0,0,1,0,0,PM_COUNT_ONE),
 	'php_fpm.start_since',
 	'Start since', '');
 $pmda->add_metric(pmda_pmid(0,4), PM_TYPE_U32, PM_INDOM_NULL,
@@ -85,35 +85,35 @@ $pmda->add_metric(pmda_pmid(0,5), PM_TYPE_U32, PM_INDOM_NULL,
 	'php_fpm.listen_queue',
 	'Listen queue', '');
 $pmda->add_metric(pmda_pmid(0,6), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.max_listen_queue',
 	'Max listen queue', '');
 $pmda->add_metric(pmda_pmid(0,7), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.listen_queue_len',
 	'Listen queue len', '');
 $pmda->add_metric(pmda_pmid(0,8), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.idle_processes',
 	'Idle processes', '');
 $pmda->add_metric(pmda_pmid(0,9), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.active_processes',
 	'Active processes', '');
 $pmda->add_metric(pmda_pmid(0,10), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.total_processes',
 	'Total processes', '');
 $pmda->add_metric(pmda_pmid(0,11), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.max_active_processes',
 	'Max active processes', '');
 $pmda->add_metric(pmda_pmid(0,12), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.max_children_reached',
 	'Max children reached', '');
 $pmda->add_metric(pmda_pmid(0,13), PM_TYPE_U32, PM_INDOM_NULL,
-	PM_SEM_COUNTER, pmda_units(0,0,0,0,0,0),
+	PM_SEM_INSTANT, pmda_units(0,0,0,0,0,0),
 	'php_fpm.slow_requests',
 	'Slow requests', '');
 
