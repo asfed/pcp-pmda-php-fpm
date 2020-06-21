@@ -1,4 +1,14 @@
 # pcp-pmda-php-fpm
+
+<p align="left">
+        <a href="https://github.com/asfed/pcp-pmda-php-fpm/releases">
+            <img src="https://img.shields.io/github/v/release/asfed/pcp-pmda-php-fpm" />
+        </a>
+        <a href="https://www.patreon.com/asfedorov">
+            <img src="https://img.shields.io/badge/donate-patreon-green" />
+        </a>
+</p>
+
 Co-pilot pcp pmda metrics module for php-fpm 
 by Andrey Fedorov, email: asfedorov@gmail.com
 
